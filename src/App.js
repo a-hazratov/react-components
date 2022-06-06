@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import StarRating from './Components/star-rating/StarRating';
+import LoginUser from './Components/LoginUser';
 function App() {
   return (
     <div className="App">
@@ -9,6 +10,7 @@ function App() {
         <p>Some react components</p>
       </header>
       <StarRating/>
+      <LoginUser/>
     </div>
   );
 }
