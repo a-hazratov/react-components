@@ -34,7 +34,7 @@ const LoginUser = () => {
   };
 
   return (
-    <form  onSubmit={onSubmit}>
+    <form className = {styles.form} onSubmit={onSubmit}>
       <h3>Login</h3>
       <input
         value={username}

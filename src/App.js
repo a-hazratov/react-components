@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import StarRating from './Components/star-rating/StarRating';
 import LoginUser from './Components/LoginUser';
+import List from './Components/List'
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       </header>
       <StarRating/>
       <LoginUser/>
+      <List/>
     </div>
   );
 }
